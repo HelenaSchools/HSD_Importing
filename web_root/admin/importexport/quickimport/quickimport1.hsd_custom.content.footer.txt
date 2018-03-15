@@ -1,0 +1,12 @@
+<div id="hsdContentToAdd">
+    <select>
+        <option value="14600">Fees</option>
+        <option value="3300">TermBins</option>
+    </select>
+</div>
+
+<script>
+    $j(document).ready(function(){
+        $j('#filenumber').append($j('#hsdContentToAdd select').html());
+    })
+</script>
